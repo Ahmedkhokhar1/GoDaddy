@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* create a navbar add in this website */
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #21232D;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.start-anchor a{
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+.start-anchor .first{
+    font-size: 25px;
+}
+.end-anchor{
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.end-anchor a{
+    margin-right: 40px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.start-anchor a:hover{    
+    text-decoration: underline;
+}
+.start-anchor .first:hover{
+    text-decoration: none;
+}
+
+.end-anchor a:hover{
+    text-decoration: underline;
+}
+
+
+/* create a search domain and right side anchor add in this website */
+.main-doomain{
+    display: flex;
+}
+.left{
+    margin: 20px 50px;
+}
+.left input{
+    width: 600px;
+    padding: 15px;
+    font-size: 18px;
+}
+.left a{
+    text-decoration: none;
+    background-color: #274F4F;
+    font-size: 16px;
+    padding: 19px;
+    margin-left: -5px;
+    color: white;
+}
+.right{
+    margin-top: 40px;
+}
+.right a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+
+
+/* create a left side website plus marketing and right side grad a.com add in this website */
+.main-content{
+    display: flex;
+}
+
+.left-side{
+    background-color: #A08C8C;
+    width: 800px;
+    padding: 40px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.left-side p{
+    font-size: 14px;
+}
+.left-side h1{
+    width: 500px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 10px 44px;
+    border-radius:  5px;
+}
+
+.left-side .last{
+    margin-top: 30px;
+}
+
+
+.right-side{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 370px;
+    padding: 40px;
+}
+
+.right-side .first{
+    margin-bottom: 20px;
+}
+
+.right-side .second{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.right-side .third{
+    margin-top: 40px;
+}
+
+
+.right-side h1{
+    font-size: 40px;
+}
+
+.right-side a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 13px 30px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+/* create a trusted byb 21+ million customer  */
+.heading{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.heading h1{
+    width: 600px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* create a border line anchor add in this website */
+
+
+
+
+
+
+
+
+
+/* create  a  NeweBloom add in this website */
+.Trustpilot{
+    margin-left: 53px;
+    margin-top: 50px;
+}
+.Trustpilot .first{
+    line-height: 30px;
+    display: inline;
+    border-right: 2px solid lightgray;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.Trustpilot .second{
+    display: inline;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* create a professional email add in this website */
+.main-professional{
+    margin: 80px 50px; 
+    display: flex;
+}
+
+.professional{
+    margin: 50px -20px 0px 130px;
+    
+}
+.professional p{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 19px;
+    width: 400px;
+    font-weight: normal;
+}
+
+.professional h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    width: 300px;
+}
+
+.professional a{
+    border: 1px solid black;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: .3s ease-in-out;
+}
+
+.professional a:hover{
+    transform: scale(1.06);
+}
+
+
+.images img{
+    width: 550px;
+}
+
+
+
+
+
+.down-professional{
+    display: flex;
+}
+
+.images{
+    margin-left: 120px;
+}
+.images img{
+    width: 550px;
+}
+
+.professionals{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.professionals p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.professionals h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.professionals p{
+    width: 400px;
+    line-height: 25px;
+}
+
+.professionals .first{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.professionals .first:hover{
+    transform: scale(1.04);
+}
+
+.professionals .second{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.professionals .second:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.our-down--professional{
+    display: flex;
+    margin-top: 70px;
+}
+
+.professionalss{
+    margin-left: 190px;
+}
+
+.professionalss .para{
+    margin-bottom: 10px;
+    }
+.professionalss p{
+    font-size: 18px;
+}
+
+.professionalss h2{
+    font-size: 40px;
+    width: 400px;
+}
+
+.professionalss .first{
+    width: 360px;
+    line-height: 25px;
+}
+
+.professionalss a{
+    border: 1px solid black;
+    border-radius: 4px ;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .3s ease;
+}
+.professionalss a:hover{
+    transform: scale(1.03);
+}
+
+
+
+
+/* create a start with domain add in this website */
+.blue-domain{
+    background-color: #A9E4F1;
+    text-align: center;
+    margin-top: 80px;
+    height: 300px;
+}
+
+.blue-domain h2{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.blue-domain p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.blue-domain input{
+    width: 500px;
+    padding: 13px;
+    border: none;
+    font-size: 17px;
+    margin-right: -5px;
+}
+
+.blue-domain input::placeholder{
+    color: black;
+}
+
+.blue-domain a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 13px 20px;
+    font-size: 17px;
+}
+
+
+
+
+
+/* crete a light blue container add in this website */
+.lightblue{
+    position: relative;
+    margin-top: 70px;
+    /* display: flex; */
+}
+
+.lightblue img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.para{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.para p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.GoDaddy{
+    position: absolute;
+    top: 100px;
+    right: 70px;
+
+}
+
+.GoDaddy p{
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.GoDaddy h1{
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.GoDaddy a{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+
+.GoDaddy p, h1,a{
+    color: white;
+}
+
+.GoDaddy i{
+    display: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+/* create a center heading add in this website */
+.center-heading{
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.center-heading h1, h2{
+    font-size: 40px;
+}
+
+.center-heading .small{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.center-heading .width{
+    height: 1px;
+    margin-top: 50px;
+    width: 150%;
+    margin-left: -100px;
+    border: 1px solid grey;
+}
+
+
+
+
+/* create a center paragraph add in this website */
+.header-center{
+    text-align: center;
+    cursor: pointer;
+}
+.header-center h2{
+    display: inline;
+    margin-right: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-center i{
+    cursor: pointer;
+    font-size: 20px;
+}
+.header-center p{
+    width: 550px;
+    font-size: 17px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+.widthh{
+    height: 1px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 322px;
+    width: 754px;
+    border: 1px solid grey;
+}
+
+
+
+
+
+
+
+
+/* second slide create add in this website */
+.side-by-side{
+    text-align: center;
+    cursor: pointer;
+}
+.side-by-side h2{
+    display: inline;
+    margin-right: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.side-by-side p{
+    font-size: 17px;
+    margin-top: 20px;
+    width: 600px;
+    text-align: left;
+    line-height: 23px;
+    margin-left: 350px;
+    margin-right: auto;
+}
+
+.side-by-side ul{
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 360px;
+    line-height: 25px;
+    text-align: left;
+    width: 600px;
+    
+}
+
+.side-by-side i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.side-by-side i{
+    margin-left: 155px;
+}
+
+
+
+
+
+
+
+/* third slide create add in this website */
+.side-by-side1{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.side-by-side1 h2{
+    display: inline;
+    margin-right: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.side-by-side1 p{
+    font-size: 17px;
+    margin-top: 20px;
+    width: 600px;
+    text-align: left;
+    line-height: 23px;
+    margin-left: 350px;
+    margin-right: auto;
+}
+
+.side-by-side1 ol{
+    /* list-style-type: ; */
+    margin-top: 10px;
+    margin-left: 360px;
+    line-height: 25px;
+    text-align: left;
+    width: 600px;
+    
+}
+
+.side-by-side1 ol li a{
+    color: black;
+}
+
+
+.side-by-side1 ol li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.side-by-side1 i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.side-by-side1 i{
+    margin-left: 210px;
+}
+
+.widthhh{
+    height: 1px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 322px;
+    width: 754px;
+    border: 1px solid grey;
+}
+
+
+
+
+/* create a Disclaimers anchor add in this website */
+.View-product{
+    margin: 60px 80px;
+}
+
+.View-product a{
+    font-weight: bold;
+    color: black;
+}
+
+.View-product p{
+    margin-top: 20px;
+}
+
+
+
+
+/* create a Need help center add in this website */
+.Need{
+    background-color: #E5ECEB;
+    height: 80px;
+    padding-top: 27px;
+
+}
+.Need h3{
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* create a black footer add in this website */
+.main-black{
+    background-color: #1B1E1E;
+    padding-bottom: 50px;
+}
+
+.black{
+    padding: 30px 90px;
+}
+.black a{
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.black .header{
+    margin-top: 15px;
+    display: block;
+    padding-left: 90px;
+}
+.black .header{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    margin-left: -100px;
+    width: 1359px;
+}
+
+
+/* create a paragraph add in this website */
+.paragraph{
+    text-align: center;
+    color: white;
+}
+.paragraph p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.paragraph p{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+
+
+/* create a more anchor add in this website */
+.more-anchor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.one h3{
+    color: white;
+}
+.one a{
+    text-decoration: none;
+    color: lightgrey;
+    margin-top: 17px;
+    font-size: 15px;
+    display: block;
+}
+.one a:hover{
+    text-decoration: underline;
+}
+.two h3{
+    color: white;
+}
+.two a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+.two a:hover{
+    text-decoration: underline;
+}
+
+.three h3{
+    color: white;
+}
+.three a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+.three a:hover{
+    text-decoration: underline;
+}
+
+.four h3{
+    color: white;
+}
+.four a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.four a:hover{
+    text-decoration: underline;
+}
+.five h3{
+    color: white;
+}
+.five a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.five a:hover{
+    text-decoration: underline;
+}
+
+.six h3{
+    color: white;
+}
+.six a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.six a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* create a navbar add in this website */
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #21232D;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.start-anchor a{
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+.start-anchor .first{
+    font-size: 25px;
+}
+.end-anchor{
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.end-anchor a{
+    margin-right: 40px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.start-anchor a:hover{    
+    text-decoration: underline;
+}
+.start-anchor .first:hover{
+    text-decoration: none;
+}
+
+.end-anchor a:hover{
+    text-decoration: underline;
+}
+
+
+/* edit in responsive navbar */
+@media screen and (max-width: 375px){
+    .navbar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* create a blue content part add in this website */
+.blue{
+    background-color: #B8E1F5;
+    height: 500px;
+    padding: 80px 70px;
+    font-size: 18px;
+}
+    
+.blue .first{
+    margin-bottom: 20px;
+}
+
+.blue h1{
+    width: 500px;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.blue .second{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blue input{
+    width: 520px;
+    padding: 18px 0px;
+    padding-left: 15px;
+    font-size: 20px;
+    margin-right: -5px;
+}
+
+.blue a{
+    background-color: black;
+    color: white;
+    padding: 21px 20px;
+    text-decoration: none;
+}
+
+
+
+/* edit a blue content part responsive add in this website  */
+@media  screen and (max-width: 375px) {
+    .blue{
+        padding-left: 10px;
+        display: block;
+        /* width: 100%; */
+    }
+    .blue h1{
+        font-size: 30px;
+        width: 340px;
+    }
+    .blue input{
+        width: 300px;
+        padding: 10px;
+        display: inline;
+    }
+    .blue a{
+        display: inline-block;
+        width: 20px;
+        display: none;
+    }
+}
+
+
+/* create a blue down navbar add in this website */
+.lightgyrey-color{
+    background-color: #E7EDF0;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 14px;
+}
+
+.lightgyrey-color h1{
+    margin-left: 10px;
+    margin-right: 20px;
+    border-right: 2px solid grey;
+    padding-right: 20px;
+    display: inline;
+    font-size: 17px;
+}
+.lightgyrey-color p{
+    display: inline;
+}
+
+.lightgyrey-color a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    border-left: 2px solid grey;
+    padding-left: 20px;
+}
+
+ /* create a blue down navbar add in this website  */
+ @media screen and (max-width: 375px){
+    .lightgyrey-color{
+        width: 375px;
+    }
+    .lightgyrey-color p{
+        display: none;
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* create a choose heading add in this website */
+.choose-heading{
+    text-align: center;
+    margin: 24px;
+}
+
+.choose-heading h1{
+    font-size: 40px;
+}
+.choose-heading p{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    width: 540px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+/* create a choose heading add in this website */
+@media screen and (max-width: 375px) {
+    .choose-heading{
+        width: 375px;
+    }
+    .choose-heading h1{
+        font-size: 34px;
+        margin-left: -36px;
+    }
+    .choose-heading p{
+        margin: 20px 0px;
+        text-align: center;
+        font-size: 18px;
+        width: 330px;
+    }
+}
+
+
+
+
+
+
+
+
+/* create a three div of display flex direction add in this website */
+.main-three-container{
+    display: flex;
+    margin: 30px 100px;
+    justify-content: space-between;
+    height: 400px;
+}
+.one-container{
+    background-color: #21232D;
+    width: 380px;
+    color: white;
+    padding: 25px;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.two-container{
+    background-color: #045D50;
+    width: 370px;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.three-container{
+    background-color: #E5ECEB;
+    width: 370px;
+    padding: 150px 20px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+
+/* Edit a three div of display block direction  responsive add in this website */
+@media screen and (max-width: 375px){
+    .main-three-container{
+        width: 100%;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .one-container{
+        width: 93%;
+        font-size: 25px;
+        min-height: 300px;
+    }
+    .two-container{
+        margin-top: 20px;
+        width: 93%;
+        font-size: 26px;
+        min-height: 300px;
+    }
+    .three-container{
+        margin-top: 20px;
+        width: 93%;
+        font-size: 20px;
+        min-height: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* create a two div and with use property is display flex add in this website */
+.natural-div{
+    display: flex;
+    margin-left: 100px;
+}
+
+.one-of-one{
+    background-color: #E5ECEB;
+    width: 380px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.one-of-one h2{
+    padding: 160px 16px;
+    font-size: 30px;
+}
+
+.two-of-one{
+    position: relative;
+    margin-left: 40px;
+}
+
+.two-of-one h2{
+    width: 350px;
+    color: white;
+    padding-left: 30px;
+    position: absolute;
+    top: 200px;
+}
+.two-of-one p{
+    position: absolute;
+    top: 360px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.two-of-one img{
+    width: 730px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+
+
+/*Edit a two div and with use property is responsive  add in this website */
+@media screen and (max-width: 375px) {
+    .natural-div{
+        margin-top: 560px;
+        margin-bottom: 70px;
+        flex-direction: column;
+    }
+
+    .one-of-one{
+        width: 350px;    
+        margin-left: -90px;
+    }
+    .one-of-one h2{
+        font-size: 24px;
+    }
+
+    .two-of-one{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -90px;
+        position: relative;
+    }
+
+    .two-of-one h2{
+        position: absolute;
+        top: 10px;
+        width: 250px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        display: inline;
+    }
+    .two-of-one img{
+        width: 350px;
+    }
+
+}
+
+
+
+
+
+
+
+/* create a Disclaimers anchor add in this website */
+.Disclaimers{
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.Disclaimers a{
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .Disclaimers{
+        margin-top: 0px;
+        text-align: left;
+        display: block;
+    }
+}
+
+
+
+
+/* create a Need help center add in this website */
+.Need{
+    background-color: #E5ECEB;
+    height: 80px;
+    padding-top: 27px;
+
+}
+.Need h3{
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* Edit a Need help center add in this website */
+@media screen and (max-width: 375px) {
+    .Need{
+        width: 100%;
+        height: 120px;
+    }
+    .Need h3{
+        width: 300px;
+        margin: auto;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* create a offer and Domains and Affiliates anchor add in this website */
+.offers{
+    background-color: #2F3534;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+.offers a{
+    text-decoration: none;
+    color: lightgrey;
+    margin-right: 40px;
+    font-size: 17px;
+}
+
+.offers p{
+    display: inline;
+    color: white;
+    font-size: 19px;
+}
+
+
+/* Edit a offer and Domains and Affiliates anchor add in this website  */
+@media screen and (max-width: 375px){
+    .offers{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .offers a{
+        font-size: 15px;
+        float: left;
+    }
+}
+
+
+
+
+
+
+/* create a black footer add in this website */
+.main-black{
+    background-color: #1B1E1E;
+}
+
+.black{
+    padding: 30px 90px;
+}
+.black a{
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.black .header{
+    margin-top: 15px;
+    display: block;
+    padding-left: 90px;
+}
+.black .header{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    margin-left: -100px;
+    width: 1359px;
+}
+
+/* Edit a black footer add in this website */
+@media  screen and (max-width: 375px) {
+    .black{
+        margin-left: -110px;
+    }
+    .black a{
+        font-size: 30px;
+    }
+    .black h1{
+        text-align: left;
+        margin-left: 40px;
+        font-size: 41px;
+    }
+    
+}
+
+
+
+
+
+
+/* create a paragraph add in this website */
+.paragraph{
+    text-align: center;
+    color: white;
+}
+.paragraph p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.paragraph p{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+
+/* Edit a paragraph add in this website */
+@media screen and (max-width: 375px) {
+    .paragraph{
+        width: 100%;
+    }
+    .paragraph p{
+        width: 360px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+
+
+
+
+
+/* create a more anchor add in this website */
+.more-anchor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.one h3{
+    color: white;
+}
+.one a{
+    text-decoration: none;
+    color: lightgrey;
+    margin-top: 17px;
+    font-size: 15px;
+    display: block;
+}
+.one a:hover{
+    text-decoration: underline;
+}
+.two h3{
+    color: white;
+}
+.two a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+.two a:hover{
+    text-decoration: underline;
+}
+
+.three h3{
+    color: white;
+}
+.three a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+.three a:hover{
+    text-decoration: underline;
+}
+
+.four h3{
+    color: white;
+}
+.four a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.four a:hover{
+    text-decoration: underline;
+}
+.five h3{
+    color: white;
+}
+.five a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.five a:hover{
+    text-decoration: underline;
+}
+
+.six h3{
+    color: white;
+}
+.six a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    display: block;
+}
+
+.six a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* create a pakistan and English icon and right side social media icons add in this website */
+.pakistan{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.left a h2{
+    display: inline;
+    margin-right: 40px;
+}
+.left a{
+    color: white;
+    margin-right: 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icons i{
+    color: grey;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.pakistan{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+/* create a paragraph add in this website */
+.last{
+    margin-top: -70px;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 10px;
+}
+.para{
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+}
+.para p{
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.last-right-anchor{
+    margin-right: 16px;
+}
+.last-right-anchor a{
+    color: white;
+    font-size: 13px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.last-right-anchor a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* create a Domain Name part when i click Domain name anchor so show in div of domain */
+.Domainss{
+    background-color: white;
+    height: 370px;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    display: none;
+    
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.Domainss h4{
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+}
+
+
+.first{
+    display: block;
+}
+.first a{
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.first a:hover{
+    color: royalblue;
+}
+
+.second a:hover{
+    color: royalblue;
+}
+
+.second a{
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+ /* create a Website & Hosting part when i click Website & Hosting anchor so show in div of domain  */
+.website-hosting{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    display: none;
+    width: 100%;
+    padding: 50px 80px;
+}
+
+.website{
+    margin-right: 100px;
+    float: left;
+}
+
+.website h4{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+.website a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+
+.website a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.Hosting{
+    margin-right: 80px;
+    float: left;
+}
+
+.Hosting h4{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+
+.Hosting a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.Hosting a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+
+
+.Web-security h4{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+
+.Web-security a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-left: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.Web-security a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* create a Email & Marketing anchor tag when i click so show div inside anchor   */
+.connect-connect{
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    display: flex;    
+    padding: 50px 50px;
+}
+
+#someId{
+    display: none;
+}
+
+
+.row1{
+    display: flex;
+}
+
+.par1{
+    margin-right: 100px;
+}
+
+.par1 h4{
+    margin-bottom: 20px;
+}
+.par1 a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 17px;
+}
+
+
+
+.par1 a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.part2{
+    margin-top: 40px;
+}
+.part2 a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 17px;
+    
+}
+
+.part2 a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.row2{ 
+    padding-left: 450px;
+    cursor: pointer;
+}
+
+.row2 img{
+    display: block;
+    transition: .3s ease;
+}
+
+.row2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: block;
+    
+}
+
+
+
+.row2 img:hover{
+    transform: scale(1.03);
+    
+}
+
+
+.row2 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*create a number anchor tag when i click so show div inside anchor   */
+.call-us{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    padding: 20px 40px;
+    position: absolute;
+    top: 60px;
+    display: none;
+    width: 100%;
+}
+
+.col1{
+    padding-right: 340px;
+    float: left;
+}
+
+.col1 h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.col1 p{
+    font-size: 18px;
+}
+
+.col1 a{
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+}
+
+.col1 a:hover{
+    text-decoration: underline;
+}
+
+.col2{
+    float: left;
+}
+
+.col2 h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.col2 a{
+    margin:12px 0px;
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 10px grey;
+    font-weight: bold;
+    width: 140px;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+
+
+
+
+
+
+
+/* create a Disclaimer part add in this website and body section hide and when i click close icon so body part automatic show  */
+.white{
+    width: 80%;
+    box-shadow: 4px 3px 20px grey;
+    /* height: 300px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    padding: 20px 0px 20px 30px;
+
+}
+
+.white i{
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: -20px;
+    padding: 10px;
+    transition: .3s ease;
+}
+
+.white i:hover{
+    background-color: lightgrey;
+}
+
+
+.white h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    color: black;
+    font-size: 14px;
+}
+
+.white p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 97%;
+}
+
+
+
+
+a{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+a:hover{
+    text-decoration: none;
+    color: royalblue;
+}
